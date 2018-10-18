@@ -1,0 +1,37 @@
+{
+  "name": "worm",
+  "version": "1.0.0",
+  "description": "Worm cache warmer",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src",
+    "dev": "pm2-dev start pm2.json",
+    "prod": "pm2-runtime start pm2.json",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmccd/worm.git"
+  },
+  "keywords": [
+    "cache",
+    "warmer",
+    "cdn",
+    "terraform",
+    "node"
+  ],
+  "author": "Maciej Dudzinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elmccd/worm/issues"
+  },
+  "homepage": "https://github.com/elmccd/worm#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
