@@ -2,12 +2,9 @@
   "name": "worm",
   "version": "1.0.0",
   "description": "Worm cache warmer",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "eslint src",
-    "dev": "pm2-dev start pm2.json",
-    "prod": "pm2-runtime start pm2.json",
-    "start": "npm run dev"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -27,11 +24,9 @@
   },
   "homepage": "https://github.com/elmccd/worm#readme",
   "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "eslint": "^5.7.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
   }
 }

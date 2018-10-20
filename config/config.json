@@ -1,0 +1,9 @@
+{
+  "concurrency": 5,
+  "default": {
+    "method": "GET",
+    "headers": {
+      "X-Wormer": "true"
+    }
+  }
+}
