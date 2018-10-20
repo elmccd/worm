@@ -107,3 +107,14 @@ You can find some examples in `/infra` folder.
 
 After successful deployment application will run under
 `http://[app-name].[aws-region].elasticbeanstalk.com/`
+
+## What's next
+
+- [ ] Add option to use Puppeteer instead of simple request
+- [ ] Add option to retry failed requests
+- [ ] Output some stats about requests times/responses/headers
+
+
+## License
+
+MIT © [Maciej Dudziński](https://github.com/elmccd)
