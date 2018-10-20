@@ -54,7 +54,7 @@ Provide additional headers to be included for all urls in current request.
 
 #### Response
 
-```json
+```javascript
 {
     "status": "ok",
     "queued": Integer // number of elements in queue
